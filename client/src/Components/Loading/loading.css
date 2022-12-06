@@ -1,0 +1,21 @@
+.spinner{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+.back-start{
+    position: absolute;
+    z-index: 1;
+}
+
+.but-back{
+    padding: 12px 20px 12px 20px;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 7px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}

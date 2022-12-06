@@ -1,0 +1,59 @@
+.navBar-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    min-height: 75px;
+    background: rgb(253,96,29);
+    background: linear-gradient(90deg, rgba(253,96,29,1) 0%, rgba(249,168,55,1) 100%);
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px ;
+}
+
+.navBar-container select{
+    padding: 7px 10px 7px 12px;
+    width: 100%;
+    border: 1px solid #e8eaed;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 1px 3px -2px #9098a9;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: all .15s ease;
+    color: #39739d;
+}
+
+
+.logo-link{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.logo-link:hover{
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.link{
+    padding: 7px 10px 7px 12px;
+    width: 100%;
+    border: 1px solid #e8eaed;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 1px 3px -2px #9098a9;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: all .15s ease;
+    color: #39739d;
+}
+
+.link:hover{
+    background: #39739d;
+    color: whitesmoke;
+    box-shadow: 2px solid rgb(90, 89, 89);
+    border: 2px solid black;
+
+}

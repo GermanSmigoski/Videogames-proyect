@@ -1,0 +1,33 @@
+.searchBar img{
+   width: 20px;
+   height: 20px;
+   align-items: center;
+   border-radius: 5px;
+}
+
+.search{
+    padding: 3px 5px 3px 5px;
+    width: 78%;
+    border: 2px solid #e8eaed;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: 0 1px 3px -2px #9098a9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: all .15s ease;
+    color: #39739d;
+}
+
+.searchBar button{
+    width: 32px;
+    height: 30px;
+    border-radius: 3px;
+    align-self: center;
+}
+
+.searchBar img:hover{
+    cursor: pointer;
+}
+.searchBar button:hover{
+    background-color: #9098a9   ;
+}

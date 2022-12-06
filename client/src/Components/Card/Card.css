@@ -1,0 +1,44 @@
+.cardContainer {
+  display: flex;
+  padding: 5%;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 5px 3px gainsboro;
+  border-radius: 7px;
+  position: relative;
+  min-height: 200px;
+  align-items: center;
+  background-color: beige;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+  justify-content: space-between;
+}
+.image {
+  display: flex;
+  max-width: 200px;
+}
+.title {
+  font-size: 12px;
+  text-decoration: none !important;
+  align-self: flex-end;
+  background-color: wheat;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.description {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 0 ;
+  align-items: center,;
+  backdrop-filter: blur(30px);
+  border-radius: 4px;
+  flex-direction: column;
+  position: relative;
+  top: 55px;
+  right: 5px;
+  border: 2px solid white;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-text-stroke: 1px rgb(34, 28, 28);
+}
